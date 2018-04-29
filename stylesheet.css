@@ -1,0 +1,100 @@
+
+body {
+	background: silver url(images/aspensnow2.jpg) no-repeat right top fixed;
+	text-align: center;
+	font-family: lucida console;
+	text-shadow: .1em .1em .2em yellowgreen;
+	
+	}
+
+#header {
+	margin: 0;
+	text-align: center;
+	background: rgba(154,205,50,.5);
+	}
+	
+	
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 25em;
+}
+
+nav ul li {
+  float: left;
+}
+
+
+nav ul a {	
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  border: 2px solid #fff;
+  border-radius: .5em;
+  margin: .25em;
+}
+
+nav ul a:link {
+  color: black;
+}
+
+nav ul a:visited {
+  color: #000;
+}
+
+nav ul a:focus {
+  background-color: yellowgreen;
+  color: #000;
+}
+
+nav ul a:hover {
+  background-color: yellowgreen;
+  color: #000;
+}
+
+nav ul a:active {
+  background-color: yellowgreen;
+  color: #000;
+}
+
+h1 {
+  font: bold 2em lucida console;
+  text-shadow: .1em .1em .1em black;
+  color: yellowgreen;
+}
+
+h2 {
+	color: black;
+	display: inline-block;
+	font-size: 40px;
+	text-align: center;
+	border: 5px solid #9ACD32;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: black;
+	font-size: 29px;
+	text-shadow: .1em .2em .2em yellowgreen;
+}
+p {
+	color: black;
+	font-size: 20px;
+	text-shadow: .2em .2em .2em yellowgreen;
+}
+
+footer p {
+	color: black;
+	font-size: 15px;
+	text-shadow: 0 0 .8em yellowgreen;
+}
+
+iframe {
+	background: white;
+}
+
+
+ 
